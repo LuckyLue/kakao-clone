@@ -1,1 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
 @import "reset.css";
+@import "status-bar.css";
+
+body {
+  background-color: white;
+  /* top&bottom // left&right */
+  padding: 10px, 20px;
+  /* little black */
+  color: #020202;
+  font-family: "Open Sans", "Courier New", Courier, monospace,
+    "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
