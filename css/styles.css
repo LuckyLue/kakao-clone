@@ -2,14 +2,18 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
+@import "nav-bar.css";
+
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: white;
   /* top&bottom // left&right */
-  padding: 10px, 20px;
+  padding: 10px 20px;
   /* little black */
   color: #020202;
-  font-family: "Open Sans", "Courier New", Courier, monospace,
-    "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Open Sans";
 }
 
 a {
